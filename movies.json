@@ -1,0 +1,40 @@
+{
+
+    "movies":[
+        {
+
+        "title": "Get Out",
+        "genre": "Thriller",
+         "year": 2017
+    },
+
+         {
+
+        "title": "Fate of the Fast and Furious",
+        "genre": "Action",
+         "year": 2017
+    },
+
+         {
+
+        "title": "Guardians of the Galaxy",
+        "genre": "Action",
+         "year": 2017
+    },
+
+         {
+
+        "title": "Jumangi",
+        "genre": "Fantasy",
+         "year": 1995
+    },
+
+         {
+
+        "title": "Rugrats Movie",
+        "genre": "Adventure",
+         "year": 1998
+    }
+    
+    ]
+}
