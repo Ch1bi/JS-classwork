@@ -95,7 +95,7 @@ User.findOne({"username": req.body.username}, function(err, user){
     else{
 
         //!??
-        if(bcrypt.compareSync(req.body.password, user.password)){
+        if(bcrypt.compareSync(req.body. word, user.password)){
 
             currentUser = user;
             res.redirect("/user");
