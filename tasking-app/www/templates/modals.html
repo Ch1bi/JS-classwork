@@ -1,0 +1,26 @@
+<ion-modal-view>
+
+    <ion-header-bar>
+        <h1 class="title">New Task</h1>
+        <button class="button button-positive" ng-click="modal.hide()">Close</button>
+        </ion-header-bar>
+
+        <ion-content>
+            <div class="padding">
+
+                <div class="list">
+
+                    <label class="item item-input">
+                        <span class="input-label">Task Name</span>
+                        <input type="text" ng-model="new.taskName" placeholder="">
+                    </label>
+
+                    <label class="item item-input">
+                        <span class="input-label">Task Description</span>
+                        <input type="text" ng-model="new.taskDesc" placeholder="">
+                    </label>
+                    <button class="buttion button-block button-positive" ng-click="newTask();">Create New Task</button>
+                </div>
+            </div>
+            <ion-content>
+</ion-modal-view>

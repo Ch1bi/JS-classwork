@@ -1,0 +1,17 @@
+<ion-view view-title="Tasks">
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon"><i class="icon ion-ios-plus" ng-click="modal.show();"></i></button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="task in tasks" type="item-text-wrap" ng-href="#/tab/tasks/{{task.id}}">
+        <h2>{{task.name}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(task)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
